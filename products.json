@@ -1,0 +1,21 @@
+{
+  "category": "ELECTRONICS",
+  "description": "High-performance laptop",
+  "id": 1,
+  "name": "Laptop",
+  "price": 999.99
+}
+{
+  "category": "BOOKS",
+  "description": null,
+  "id": 2,
+  "name": "Python Book",
+  "price": 29.99
+}
+{
+  "category": "CLOTHING",
+  "description": "Cotton T-shirt",
+  "id": 3,
+  "name": "T-Shirt",
+  "price": null
+}
