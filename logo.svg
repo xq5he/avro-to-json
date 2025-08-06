@@ -1,0 +1,91 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#0f172a" rx="12"/>
+  
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrow-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="300" fill="url(#bg-gradient)" rx="12"/>
+  
+  <!-- Main title -->
+  <text x="400" y="60" text-anchor="middle" fill="#f8fafc" font-family="'Courier New', monospace" font-size="36" font-weight="bold">
+    AVRO → JSON
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="85" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">
+    Rust-Powered Converter with Comprehensive Codec Support
+  </text>
+  
+  <!-- Left Box (AVRO) -->
+  <rect x="80" y="120" width="120" height="80" fill="#1f2937" stroke="#4f46e5" stroke-width="2" rx="8"/>
+  <text x="140" y="135" text-anchor="middle" fill="#4f46e5" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AVRO</text>
+  <text x="140" y="150" text-anchor="middle" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Binary</text>
+  <text x="140" y="165" text-anchor="middle" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Compressed</text>
+  <text x="140" y="180" text-anchor="middle" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Schema</text>
+  <text x="140" y="195" text-anchor="middle" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Evolution</text>
+  
+  <!-- Arrow -->
+  <path d="M220 160 L320 160" stroke="url(#arrow-gradient)" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <path d="M280 140 L320 160 L280 180" stroke="url(#arrow-gradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Processing box -->
+  <rect x="340" y="120" width="120" height="80" fill="#065f46" stroke="#10b981" stroke-width="2" rx="8"/>
+  <text x="400" y="135" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">CONVERT</text>
+  <text x="400" y="150" text-anchor="middle" fill="#6ee7b7" font-family="'Courier New', monospace" font-size="9">🦀 Rust</text>
+  <text x="400" y="165" text-anchor="middle" fill="#6ee7b7" font-family="'Courier New', monospace" font-size="9">⚡ Fast</text>
+  <text x="400" y="180" text-anchor="middle" fill="#6ee7b7" font-family="'Courier New', monospace" font-size="9">🔧 All Codecs</text>
+  <text x="400" y="195" text-anchor="middle" fill="#6ee7b7" font-family="'Courier New', monospace" font-size="9">🎨 Colored</text>
+  
+  <!-- Arrow -->
+  <path d="M480 160 L580 160" stroke="url(#arrow-gradient)" stroke-width="4"/>
+  <path d="M540 140 L580 160 L540 180" stroke="url(#arrow-gradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Right Box (JSON) -->
+  <rect x="600" y="120" width="120" height="80" fill="#7c2d12" stroke="#f97316" stroke-width="2" rx="8"/>
+  <text x="660" y="135" text-anchor="middle" fill="#f97316" font-family="Arial, sans-serif" font-size="12" font-weight="bold">JSON</text>
+  <text x="660" y="150" text-anchor="middle" fill="#fed7aa" font-family="'Courier New', monospace" font-size="10">Human</text>
+  <text x="660" y="165" text-anchor="middle" fill="#fed7aa" font-family="'Courier New', monospace" font-size="10">Readable</text>
+  <text x="660" y="180" text-anchor="middle" fill="#fed7aa" font-family="'Courier New', monospace" font-size="10">Pretty</text>
+  <text x="660" y="195" text-anchor="middle" fill="#fed7aa" font-family="'Courier New', monospace" font-size="10">Colored</text>
+  
+  <!-- Features bar -->
+  <rect x="80" y="230" width="640" height="40" fill="#1e293b" stroke="#475569" stroke-width="1" rx="6"/>
+  
+  <!-- Feature badges -->
+  <rect x="100" y="240" width="80" height="20" fill="#3730a3" rx="10"/>
+  <text x="140" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">zstandard</text>
+  
+  <rect x="190" y="240" width="60" height="20" fill="#be185d" rx="10"/>
+  <text x="220" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">snappy</text>
+  
+  <rect x="260" y="240" width="50" height="20" fill="#b91c1c" rx="10"/>
+  <text x="285" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">bzip2</text>
+  
+  <rect x="320" y="240" width="30" height="20" fill="#a16207" rx="10"/>
+  <text x="335" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">xz</text>
+  
+  <rect x="360" y="240" width="60" height="20" fill="#059669" rx="10"/>
+  <text x="390" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">colors</text>
+  
+  <rect x="430" y="240" width="80" height="20" fill="#7c3aed" rx="10"/>
+  <text x="470" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">all types</text>
+  
+  <rect x="520" y="240" width="80" height="20" fill="#dc2626" rx="10"/>
+  <text x="560" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">fast</text>
+  
+  <rect x="610" y="240" width="90" height="20" fill="#0369a1" rx="10"/>
+  <text x="655" y="252" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">warp ai</text>
+  
+  <!-- Border glow effect -->
+  <rect width="800" height="300" fill="none" stroke="url(#arrow-gradient)" stroke-width="2" rx="12" opacity="0.3"/>
+</svg>

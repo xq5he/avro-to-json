@@ -1,6 +1,15 @@
-# Avro to JSON Converter
-
-A Rust command-line tool to convert Apache Avro files to JSON format.
+<div align="center">
+  <img src="logo.svg" alt="Avro to JSON Converter Logo" width="600"/>
+  
+  # Avro to JSON Converter
+  
+  A Rust command-line tool to convert Apache Avro files to JSON format.
+  
+  [![Rust](https://img.shields.io/badge/rust-stable-orange.svg)](https://www.rust-lang.org)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/xq5he/avro-to-json)
+  
+</div>
 
 > **Note**: This project was developed with assistance from Warp AI, demonstrating the power of AI-assisted software development.
 
