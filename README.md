@@ -28,6 +28,18 @@
 
 ## Installation
 
+### Option 1: Homebrew (Recommended for macOS)
+
+```bash
+# Add the tap
+brew tap xq5he/tap
+
+# Install the tool
+brew install avro-to-json
+```
+
+### Option 2: Build from Source
+
 Make sure you have Rust installed, then build the project:
 
 ```bash
